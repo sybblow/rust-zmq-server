@@ -1,0 +1,10 @@
+[package]
+name = "rust-zmq-server"
+version = "0.1.0"
+authors = ["caosiliang <siliang.cao@gmail.com>"]
+
+[dependencies]
+zmq = "*"
+
+[dependencies.schedule_recv]
+git = 'https://github.com/PeterReid/schedule_recv.git'
